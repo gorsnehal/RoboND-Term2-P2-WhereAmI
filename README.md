@@ -19,7 +19,7 @@ $ sudo apt-get install ros-kinetic-amcl
 ```
 
 * Download the repository folder 'sg_bot' to catkin workspace folder
-Use following command to clone entire repository, and copy 'sg_bot' folder to your catkin_ws folder.
+Use following command to clone entire repository, and copy 'sg_bot' folder to your catkin_ws/src folder.
 ```
 $ git clone https://github.com/gorsnehal/RoboND-Term2-P2-WhereAmI.git
 ```
