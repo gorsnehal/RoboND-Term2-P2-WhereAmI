@@ -7,9 +7,9 @@ Several aspects of robotics with a focus on ROS have been explored, including -
 * Creating a ROS package that launches a custom robot model in a Gazebo world and utilizes packages like AMCL and the Navigation Stack.
 * Exploring, adding, and tuning specific parameters corresponding to each package to achieve the best possible localization results.
 
-## Installation & Build ##
+## Installation, Build & Running Scripts ##
 
-** Following package installation might be required (Assumed that Linux 16.04 and ROS Kinetic installation is already there) **
+* Following package installation might be required (Assumed that Linux 16.04 and ROS Kinetic installation is already there)
 ```
 $ sudo apt-get install ros-kinetic-navigation
 $ sudo apt-get install ros-kinetic-map-server
@@ -18,8 +18,8 @@ $ rospack profile
 $ sudo apt-get install ros-kinetic-amcl
 ```
 
-**Download the repository folder 'sg_bot' to catkin workspace folder**
-* Use following command to clone entire repository, and copy 'sg_bot' folder to your catkin_ws folder.
+* Download the repository folder 'sg_bot' to catkin workspace folder
+Use following command to clone entire repository, and copy 'sg_bot' folder to your catkin_ws folder.
 ```
 $ git clone https://github.com/gorsnehal/RoboND-Term2-P2-WhereAmI.git
 ```
