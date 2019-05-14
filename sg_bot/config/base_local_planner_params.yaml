@@ -1,0 +1,7 @@
+controller_frequency: 7.0
+
+TrajectoryPlannerROS:
+
+  holonomic_robot: false
+  pdist_scale: 4.0
+ 
